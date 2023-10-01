@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: #000;
+  background: #f5f5f5;
+}
+header {
+  border-bottom: 1px solid #ced4da;
+  background: linear-gradient(92deg, #087990 0.12%, #055160 100%);
+  text-align: center;
+}
+.container {
+  max-width: 986px;
+}
+.container__header {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  box-sizing: content-box;
+  height: 295px;
+}
+
+.title {
+  color: #cff4fc;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 68px;
+}
+.subtitle {
+  color: #cff4fc;
+  font-size: 21px;
+  line-height: 36px; /* 171.429% */
+}
+.input {
+  display: initial;
+  margin-top: 7.5%;
+
+  min-width: 820px;
+  height: 64px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background: #fff;
+}
+.input__text {
+  color: #abb5be;
+  font-size: 24px;
+  line-height: 21px; /* 87.5% */
+}
+
+.container__emoji {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 80px auto;
+}
+.emoji__card {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  flex-direction: column;
+  width: 316px;
+  height: 184px;
+  margin-bottom: 22px;
+}
+
+.emoji__img {
+  /* margin-top: 24px; */
+  /* margin-bottom: 18px; */
+  margin: 24px auto 18px;
+  width: 48px;
+  height: 48px;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+  background: lightgray;
+}
+.emoji__info {
+  padding: 0 24px 24px;
+  text-align: center;
+}
+
+.emoji__name {
+  color: #000;
+  /* Body/Strong */
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px; /* 164.706% */
+  text-decoration-line: underline;
+}
+
+.emoji_type {
+  color: #3f444a;
+  text-align: center;
+  /* Body/Small */
+  font-size: 12px;
+  line-height: normal;
+}
+
+.container__footer {
+  min-height: 35px;
+  margin: 0 auto;
+  border-top: 1px solid #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13px;
+}
+
+.footer__text {
+  color: #6c757d;
+
+  font-size: 16px;
+  line-height: 21px; /* 131.25% */
+}
