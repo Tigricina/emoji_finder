@@ -21,7 +21,6 @@ header {
 .container__header {
   margin: 0 auto;
   padding: 0 15px;
-
   box-sizing: content-box;
   height: 295px;
 }
@@ -41,7 +40,6 @@ header {
 .input {
   display: initial;
   margin-top: 7.5%;
-
   min-width: 820px;
   height: 64px;
   border-radius: 4px;
@@ -73,8 +71,6 @@ header {
 }
 
 .emoji__img {
-  /* margin-top: 24px; */
-  /* margin-bottom: 18px; */
   margin: 24px auto 18px;
   width: 48px;
   height: 48px;
@@ -90,7 +86,6 @@ header {
 
 .emoji__name {
   color: #000;
-  /* Body/Strong */
   font-size: 17px;
   font-weight: 700;
   line-height: 28px; /* 164.706% */
@@ -117,7 +112,6 @@ header {
 
 .footer__text {
   color: #6c757d;
-
   font-size: 16px;
   line-height: 21px; /* 131.25% */
 }
