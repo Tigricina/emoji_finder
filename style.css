@@ -9,6 +9,12 @@ body {
   font-weight: 400;
   color: #000;
   background: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
 }
 header {
   border-bottom: 1px solid #ced4da;
@@ -40,7 +46,7 @@ header {
 .input {
   display: initial;
   margin-top: 7.5%;
-  min-width: 820px;
+  width: calc(820 / 1440 * 100vw);
   height: 64px;
   border-radius: 4px;
   border: 1px solid #ced4da;
@@ -92,7 +98,7 @@ header {
   text-decoration-line: underline;
 }
 
-.emoji_type {
+.emoji__type {
   color: #3f444a;
   text-align: center;
   /* Body/Small */
@@ -108,6 +114,7 @@ header {
   justify-content: center;
   align-items: center;
   padding-top: 13px;
+  padding-bottom: 17px;
 }
 
 .footer__text {
